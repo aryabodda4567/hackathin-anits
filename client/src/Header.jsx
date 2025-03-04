@@ -3,17 +3,17 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
     return (
-        <header className="bg-blue-600 text-white p-3 shadow-md flex">
+        <header className= " color text-white p-3 shadow-md flex">
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo */}
-                <div className="text-2xl font-bold cursor-pointer">ShopEase</div>
+                <div className="text-2xl font-bold cursor-pointer"></div>
 
                 {/* Search Bar */}
                 <div className="hidden sm:flex flex-1 mx-5">
                     <input
                         type="text"
                         placeholder="Search for products..."
-                        className="p-2 w-full rounded-l-md text-black outline-none"
+                        className="p-2 w-full text-white rounded-l-md border border-white text-black outline-none"
                     />
                     <button className="bg-yellow-500 p-2 rounded-r-md">
                         <FaSearch size={20} />
