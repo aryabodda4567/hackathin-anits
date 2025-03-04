@@ -1,15 +1,22 @@
-    # Node.js dependencies
-    /node_modules
-    server/node_modules
+# Node.js dependencies
+/server/node_modules
+/client/node_modules
 
-    # React dependencies
-    /client/node_modules
-    /client/build
+# React dependencies
+/client/build
 
-    # Environment variables
-    .env
-    /server/.env
-    /client/.env
+# Environment variables
+.env
+
+# Logs & Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
 
 
