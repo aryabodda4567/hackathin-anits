@@ -5,6 +5,7 @@
 # React dependencies
 /client/build
 
+/node_modules
 # Environment variables
 .env
 
